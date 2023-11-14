@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b601b84a-a051-403e-b46e-82cf49ff9a44" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/ArmanKarshenas.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/BicoidDosageData" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day1-BiologybyNumbers/00-BerkeleyBootcamp-2023-BootcampIntro-export.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day1-BiologybyNumbers/01-BerkeleyBootcamp-2023-BiologicalNumeracyExam-export.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/.ipynb_checkpoints/BacterialGrowth-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/.ipynb_checkpoints/Day2-PythonBasics_BacterialGrowth-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/.ipynb_checkpoints/Ext1-logistic-growth-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/.ipynb_checkpoints/LogisticGrowth-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/.ipynb_checkpoints/PythonBasics_BacterialGrowth-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/02-BerkeleyBootcamp-2023-StuffOfT-export.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/BerkeleyBootcamp-2022-BacterialGrowth-Export.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/ColonyGrowth__with_chi_square_PBoC2020.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/Day2-PythonBasics_BacterialGrowth.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/Ext1-logistic-growth.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day2-BacterialGrowth/Ext2-bacterial-growth-image-analysis.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day3-Errors/.ipynb_checkpoints/Hypothesis_testing-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day3-Errors/BerkeleyBootcamp-2022-Hypothesis testing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day3-Errors/BerkeleyBootcamp-2023-Hypothesis testing.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day3-Errors/BerkeleyBootcamp-2023-Hypothesis testing.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day3-Errors/Day3-Hypothesis_testing.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day3-Errors/qb-bootcamp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/.ipynb_checkpoints/Day6-Regression&amp;association-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/.ipynb_checkpoints/QB_Day5_Assocition_final-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/BerkeleyBootcamp-2022-Association.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/Day6-Regression&amp;association.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/Day6_Association_PM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/Day6_Regression_PM.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/Filtered data/Delta-processed.fasta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/Filtered data/Delta-viral-load.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day6-Bioinformatics&amp;PCA/QB_Day5_Assocition_final.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/.ipynb_checkpoints/ConstitutivePromoter_8_24_22-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/.ipynb_checkpoints/CoronaVirus_by_the_Numbers_PBoC2020-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/.ipynb_checkpoints/EquationsOfBiologicalDynamics-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/.ipynb_checkpoints/MutualRepressionSwitch-checkpoint.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/BerkeleyBootcamp-2022-DynamicalSystems-Export.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/BerkeleyBootcamp-2022-DynamicsProtocol-Export.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/Day7-EquationsOfBiologicalDynamics.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/Ext1-CoronaVirus_by_the_Numbers_PBoC2020.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/Day7-EquationsOfBiologicalDynamics/Ext2-gene_expression_master_equation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/EcoliGrowth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/QuantitativeBiologyBootcamp-2023-Syllabus.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/SARS-CoV-2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QBootcamp/qb-bootcamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Yr1/Rotation1/Presentations/WeeklyMeetings.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Week1.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Xx8Uz5STHKTvK7NzHp3DdUmHlk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Python.Week1">
+    <configuration name="Week1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bioinformatics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Bioinformatics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Week1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b601b84a-a051-403e-b46e-82cf49ff9a44" name="Changes" comment="" />
+      <created>1699559389513</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1699559389513</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
