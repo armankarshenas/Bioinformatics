@@ -1,4 +1,6 @@
 # This is a python script for week 1 of the bioinformatics course
+import numpy as np
+import sys
 
 
 def PatternCount(Text,Pattern):
@@ -45,7 +47,7 @@ def Complement(Text):
     for char in Text:
         comp_text = comp_text + comp[char]
     return comp_text
-def Reverse_complement(Text):
+def ReverseComplement(Text):
     rev_comp_text = ""
     rev_comp_text = Reverse(Text)
     rev_comp_text = Complement(rev_comp_text)
@@ -58,8 +60,34 @@ def PatternMatching(Pattern, Genome):
         if Genome[i:i+n_p] == Pattern:
             position.append(i)
     return position
+def ReadFASTA(file_name):
+    Seq_dict = {}
+    temp_id = ""
+    F = open(file_name)
+    for line in F:
+        if line[0] == '>':
+            temp_id = line[1:-1]
+            Seq_dict[temp_id] = ""
+        else:
+            Seq_dict[temp_id] = Seq_dict[temp_id] + line[0:len(line)-2]
+    return Seq_dict
+def ReadFASTA_to_string(file_name):
+    F = open(file_name)
+    seq = ""
+    for line in F:
+        if line[0] != '>':
+            seq = seq + line[0:-2]
+    return seq
+
 ori = "ATCAATGATCAACGTAAGCTTCTAAGCATGATCAAGGTGCTCACACAGTTTATCCACAACCTGAGTGGATGACATCAAGATAGGTCGTTGTATCTCCTTCCTCTCGTACTCTCATGACCACGGAAAGATGATCAAGAGAGGATGATTTCTTGGCCATATCGCAATGAATACTTGTGACTTGTGCTTCCAATTGACATCTTCAGCGCCATATTGCGCTGGCCAAGGTGACGGAGCGGGATTACGAAAGCATGATCATGGCTGTTGTTCTGTTTATCTTGTTTTGACTGAGACTTGTTAGGATAGACGGTTTTTCATCACTGACTAGCCAAAGCCTTACTCTGCCTGACATCGACCGTAAATTGATAATGAATTTACATGCTTCCGCGACGATTTACCTCTTGATCATCGATCCGATTGAAGATCTTCAATTGTTAATTCTCTTGCCTCGACTCATAGCCATGATGAGCTCTTGATCATGTTTCCTTAACCCTCTATTTTTTACGGAAGAATGATCAAGCTGCTGCTCTTGATCATCGTTTC"
 Pattern = "TGATCA"
 print(PatternCount(ori,Pattern))
-print(Reverse_complement("ATTCG"))
+print(ReverseComplement("ATTCG"))
 print(FrequentWords(ori,10))
+
+# This part of the example, we look at SARS-CoV-2 virus
+file_name = "Data/SARS-cov-2.fasta"
+seq = ReadFASTA(file_name)
+print(seq)
+quiz = "CGGAGGACTCTAGGTAACGCTTATCAGGTCCATAGGACATTCA"
+print(FrequencyMap(quiz,3))
