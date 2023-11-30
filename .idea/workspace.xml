@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b601b84a-a051-403e-b46e-82cf49ff9a44" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Week3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Leetcode/Stock_priceII.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QBootcamp/ArmanKarshenas.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QBootcamp/BicoidDosageData" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../QBootcamp/Day1-BiologybyNumbers/00-BerkeleyBootcamp-2023-BootcampIntro-export.pptx" afterDir="false" />
@@ -51,6 +52,7 @@
       <change afterPath="$PROJECT_DIR$/../QBootcamp/qb-bootcamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Yr1/Rotation1/Presentations/WeeklyMeetings.pptx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +88,7 @@
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.Week3">
+  <component name="RunManager" selected="Python.Week4">
     <configuration name="Week1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Bioinformatics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +152,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Week4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Bioinformatics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Week4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Bioinformatics" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,6 +196,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Week4" />
         <item itemvalue="Python.Week3" />
         <item itemvalue="Python.Week2" />
         <item itemvalue="Python.Week1" />
