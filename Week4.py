@@ -30,9 +30,8 @@ def GreedyMotifSearchWithPseudocounts(Dna, k, t):
         if Score(Motifs) < Score(BestMotifs):
             BestMotifs = Motifs
     return BestMotifs
-def Motifs(Profile, Dna):
+def Motifs(Profile, Dna,k):
     Motifs_out = []
-    k = len(Profile)
     t = len(Dna)
     for i in range(t):
         Motifs_out.append(ProfileMostProbableKmer(Dna[i],k,Profile))
@@ -48,36 +47,52 @@ def RandomizedMotifSearch(Dna, k, t):
     M = RandomMotifs(Dna,k,t)
     BestMotif = M
     score = Score(BestMotif)
-    while True:
+    flag = 1
+    while flag == 1:
+        print(score)
         Profile = ProfileWithPseudocounts(M)
         M = Motifs(Profile,Dna)
         if Score(M) < Score(BestMotif):
             BestMotif = M
-            score.append(Score(BestMotif))
+            score = Score(BestMotif)
         else:
-            return BestMotif
+            flag = 0
+    return BestMotif
 def Normalize(Probabilities):
     p_sum = sum(Probabilities.values())
     for k,p in Probabilities.items():
         Probabilities[k] = p/p_sum
     return Probabilities
 def WeightedDie(Probabilities):
-    sort_p = list(Probabilities.values())
-    sort_p.sort()
-    temp_p = np.array(sort_p)
-    r = random.uniform(0,1)
-    flag = 0
-    for i in range(len(sort_p)):
-        if r> temp_p[i]:
-            temp_p[i+1] = temp_p[i+1] + temp_p[i]
-        else:
-            m = sort_p[i]
-            flag =1
-            break
-    if flag == 0:
-        m = sort_p[-1]
-    for k,p in Probabilities.items():
-        if p == m:
-            return k
-P = {"AATC":0.23,"AAAC":0.5,"ATTC":0.27}
-print(WeightedDie(P))
+    p = random.uniform(0, 1)
+    # Iterate through k-mers and their probabilities
+    for kmer, probability in Probabilities.items():
+        p -= probability
+        if p <= 0:
+            return kmer
+def ProfileGeneratedString(Text,profile,k):
+    n = len(Text)
+    prob = {}
+    for i in range(0,n-k+1):
+        prob[Text[i:i+k]] = Pr(Text[i:i+k],profile)
+    prob = Normalize(prob)
+    return WeightedDie(prob)
+def GibbsSampler(Dna,k,t,N):
+    motif = RandomMotifs(Dna,k,t)
+    Bestmotif = motif
+    for i in range(N):
+        p = random.randint(0,t-1)
+        motif.pop(p)
+        profile = ProfileWithPseudocounts(motif)
+        m = ProfileGeneratedString(Dna[p],profile,k)
+        motif.insert(p,m)
+        if Score(motif) < Score(Bestmotif):
+            Bestmotif = motif
+    return Bestmotif
+P = {"A":[1/8, 2/8, 3/8],"C":[1/8,1/8,1/8],"T":[3/8,2/8,3/8],"G":[4/8,3/8,1/8]}
+Dna = ["TGACGTTC", "TAAGAGTT", "GGACGAAA","CTGTTCGC"]
+for i in range(len(Dna)):
+    print(ProfileMostProbableKmer(Dna[i],3,P))
+
+pr = np.array([0.15,0.6,0.225,0.225,0.3])
+print(pr/np.sum(pr))
